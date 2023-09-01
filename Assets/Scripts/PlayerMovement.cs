@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Transactions;
 using UnityEngine;
-using Yarn.Unity;
 
 public class PlayerMovement : MonoBehaviour
 {

@@ -77,6 +77,7 @@ public class TriggerAnimation : MonoBehaviour
             }
         }
     
+        isFlipping = false; 
         
         for (float time = 0; time <= 1; time += 0.01f)
         {
@@ -85,6 +86,6 @@ public class TriggerAnimation : MonoBehaviour
 
             yield return new WaitForSeconds(0.001f);
         }
-        isFlipping = false; 
+//        isFlipping = false; 
     }
 }
